@@ -5,10 +5,7 @@ import android.graphics.Canvas;
 import android.graphics.Paint;
 import android.graphics.Point;
 import android.util.AttributeSet;
-import android.view.Display;
-import android.view.View;
-import android.view.Window;
-import android.view.WindowManager;
+import android.view.*;
 
 /**
  * Created by Elkin on 21.02.2016.
@@ -56,5 +53,16 @@ public class CanvasView extends View implements ICanvasView {
     public void drawCircle(MainCircle circle) {
         canvas.drawCircle(circle.getX(),circle.getY(),circle.getReadius(),paint);
 
+    }
+
+    @Override
+    public boolean onTouchEvent(MotionEvent event) {
+       int x = (int)event.getX();
+       int y = (int)event.getY();
+        if (event.getAction() == MotionEvent.ACTION_MOVE) {
+            gameManager.onTouchEvent(x, y);
+        }
+        invalidate();
+        return true;
     }
 }
