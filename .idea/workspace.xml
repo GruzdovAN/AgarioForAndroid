@@ -10,11 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50ec32ea-3b96-45e4-8ee0-0d36c4dc3dd7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Art/AgarioForAndroid/SimpleCircle.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Art/AgarioForAndroid/EnemyCircle.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Art/AgarioForAndroid/CanvasView.java" afterPath="$PROJECT_DIR$/src/Art/AgarioForAndroid/CanvasView.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Art/AgarioForAndroid/ICanvasView.java" afterPath="$PROJECT_DIR$/src/Art/AgarioForAndroid/ICanvasView.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Art/AgarioForAndroid/MainCircle.java" afterPath="$PROJECT_DIR$/src/Art/AgarioForAndroid/MainCircle.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Art/AgarioForAndroid/GameManager.java" afterPath="$PROJECT_DIR$/src/Art/AgarioForAndroid/GameManager.java" />
     </list>
     <ignored path="AgarioForAndroid.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -46,10 +44,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CanvasView.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CanvasView.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Art/AgarioForAndroid/CanvasView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7199341">
+            <state vertical-scroll-proportion="0.0">
               <caret line="55" column="5" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
               <folding />
             </state>
@@ -86,13 +84,12 @@
         <entry file="file://$PROJECT_DIR$/src/Art/AgarioForAndroid/GameManager.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="28" column="21" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="21" />
+              <caret line="42" column="35" selection-start-line="42" selection-start-column="35" selection-end-line="42" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#504#505#0" expanded="true" />
-                <element signature="e#532#533#0" expanded="true" />
-                <element signature="e#569#570#0" expanded="true" />
-                <element signature="e#598#599#0" expanded="true" />
+                <element signature="e#919#920#0" expanded="true" />
+                <element signature="e#947#948#0" expanded="true" />
+                <element signature="e#1013#1014#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -114,6 +111,19 @@
             <state vertical-scroll-proportion="0.0">
               <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EnemyCircle.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Art/AgarioForAndroid/EnemyCircle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.7561779">
+              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+              <folding>
+                <element signature="e#290#291#0" expanded="true" />
+                <element signature="e#325#326#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -141,11 +151,12 @@
       <list>
         <option value="$PROJECT_DIR$/res/layout/main.xml" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/Art/AgarioForAndroid/GameManager.java" />
         <option value="$PROJECT_DIR$/src/Art/AgarioForAndroid/MainCircle.java" />
         <option value="$PROJECT_DIR$/src/Art/AgarioForAndroid/SimpleCircle.java" />
         <option value="$PROJECT_DIR$/src/Art/AgarioForAndroid/ICanvasView.java" />
         <option value="$PROJECT_DIR$/src/Art/AgarioForAndroid/CanvasView.java" />
+        <option value="$PROJECT_DIR$/src/Art/AgarioForAndroid/GameManager.java" />
+        <option value="$PROJECT_DIR$/src/Art/AgarioForAndroid/EnemyCircle.java" />
       </list>
     </option>
   </component>
@@ -822,20 +833,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Art/AgarioForAndroid/GameManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="21" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#504#505#0" expanded="true" />
-            <element signature="e#532#533#0" expanded="true" />
-            <element signature="e#569#570#0" expanded="true" />
-            <element signature="e#598#599#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Art/AgarioForAndroid/MainCircle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -876,9 +873,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Art/AgarioForAndroid/CanvasView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7199341">
+        <state vertical-scroll-proportion="0.0">
           <caret line="55" column="5" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Art/AgarioForAndroid/GameManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="42" column="35" selection-start-line="42" selection-start-column="35" selection-end-line="42" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#919#920#0" expanded="true" />
+            <element signature="e#947#948#0" expanded="true" />
+            <element signature="e#1013#1014#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Art/AgarioForAndroid/EnemyCircle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7561779">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding>
+            <element signature="e#290#291#0" expanded="true" />
+            <element signature="e#325#326#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
