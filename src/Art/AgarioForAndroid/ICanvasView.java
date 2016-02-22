@@ -5,4 +5,6 @@ package Art.AgarioForAndroid;
  */
 public interface ICanvasView {
     void drawCircle(SimpleCircle circle);
+
+    void redraw();
 }
